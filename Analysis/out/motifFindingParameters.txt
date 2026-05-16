@@ -1,0 +1,1 @@
+cmd = ../Data/ATAC_peaks/wnt5a_zf_peaks.fasta fasta out/ -find /home/josefbryja/homer/data/knownTFs/vertebrates/known.motifs

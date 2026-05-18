@@ -110,7 +110,9 @@ sc.pl.umap(cncc, color = ["leiden", "predicted_doublet", "doublet_score"], wspac
 ##############################
 
 # Select genes to be visualized
-gene_list = {"wnt5a": ["ENSDARG00000104973"], "Selected TFs": ["ENSDARG00000042904", "ENSDARG00000059483", "ENSDARG00000042032", "ENSDARG00000095896", "ENSDARG00000062420"]}
+gene_list = {"wnt5a": ["ENSDARG00000104973"], "Selected TFs": ["ENSDARG00000042904", "ENSDARG00000059483", "ENSDARG00000042032", "ENSDARG00000095896", "ENSDARG00000062420", "ENSDARG00000078266"]}
 
 # Plot the dotplot
 sc.pl.dotplot(cncc, gene_list, groupby = "leiden", standard_scale = "var")
+
+sc.pl.umap(cncc, color = "ENSDARG00000078266", size = 50)

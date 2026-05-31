@@ -1,0 +1,1 @@
+cmd = ../Data/loop_sequence/wnt5a_loop.fa fasta homer_loop/ -find /home/josefbryja/homer/data/knownTFs/vertebrates/known.motifs

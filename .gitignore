@@ -1,2 +1,6 @@
-# Ignore scRNAseq data
+# Ignore scRNAseq and snATACseq data
 Data/scRNAseq_data/*
+Data/snATACseq_data/*
+
+# Ignore RDS files generated during analysis
+Analysis/*.rds
